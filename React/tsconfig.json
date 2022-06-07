@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["ES2021", "DOM"],
+    "target": "ES5",
+    "module": "ESNext",
+    "strict": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "strictFunctionTypes": false,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  },
+  "include": ["./src", "./index.d.ts"]
+}
